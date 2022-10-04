@@ -1,0 +1,62 @@
+.game-screen{
+  padding-top: 0;
+  color: $main-text-color;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap row;
+}
+.right{
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  gap: 20px;
+} 
+.left{
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  justify-content: center;  
+}
+.game-stats{
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  align-self: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.choices{
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-flow: nowrap column;
+  align-items: center;
+  justify-content: center;
+  
+  .choices1{
+    position: relative;
+    align-self: flex-start;
+    cursor: pointer;
+    left: -20px;
+    }
+
+  .choices2{
+    align-self: center;
+    cursor: pointer;
+    }
+
+    .choices3{
+      align-self: flex-start;
+      cursor: pointer;
+    }
+}
+.game-screen-success{
+  background-color: #00BF63;
+}
+.game-screen-fail{
+  background-color: #FA0000;
+}
